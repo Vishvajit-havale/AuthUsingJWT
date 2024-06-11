@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthWithJWT", "AuthWithJWT\AuthWithJWT.csproj", "{D7F74241-F58E-4154-8F46-B6D7FC66489D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{BEC70887-0EA2-464A-A5DF-14126BA2B9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{2E65FA40-682F-4B8E-A4B6-48679F236A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modal", "Modal\Modal.csproj", "{F2E1020A-95D0-40EF-8BD1-BA680BF83804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F74241-F58E-4154-8F46-B6D7FC66489D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F74241-F58E-4154-8F46-B6D7FC66489D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F74241-F58E-4154-8F46-B6D7FC66489D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F74241-F58E-4154-8F46-B6D7FC66489D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC70887-0EA2-464A-A5DF-14126BA2B9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC70887-0EA2-464A-A5DF-14126BA2B9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC70887-0EA2-464A-A5DF-14126BA2B9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC70887-0EA2-464A-A5DF-14126BA2B9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E65FA40-682F-4B8E-A4B6-48679F236A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E65FA40-682F-4B8E-A4B6-48679F236A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E65FA40-682F-4B8E-A4B6-48679F236A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E65FA40-682F-4B8E-A4B6-48679F236A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E1020A-95D0-40EF-8BD1-BA680BF83804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E1020A-95D0-40EF-8BD1-BA680BF83804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E1020A-95D0-40EF-8BD1-BA680BF83804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E1020A-95D0-40EF-8BD1-BA680BF83804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C40AC24-702D-4195-82C1-F65479855547}
+	EndGlobalSection
+EndGlobal
