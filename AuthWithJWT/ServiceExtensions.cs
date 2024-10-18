@@ -12,6 +12,8 @@ namespace AuthWithJWT
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IUserRepo>(s => new UserRepo(ConnectinString));
 
+            services.AddTransient<IAuthService, AuthService>();
+
         }
     }
 }
